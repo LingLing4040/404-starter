@@ -1,0 +1,43 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.main {
+  width: 100%;
+  margin: 110px auto 280px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.title {
+  width: 420px;
+  font-size: 120px;
+  margin: 0 auto 22px;
+}
+
+.title:hover + .error {
+  opacity: 1;
+}
+
+.error {
+  width: 420px;
+  font-size: 16px;
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+
+.to-homepage {
+  font-size: 16px;
+}
+
+.text {
+  text-align: center;
+  font-weight: normal;
+}
+
